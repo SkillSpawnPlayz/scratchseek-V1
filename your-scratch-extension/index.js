@@ -14,10 +14,10 @@ class Scratch3YourExtension {
     getInfo () {
         return {
             // unique ID for your extension
-            id: 'yourScratchExtension',
+            id: 'DeepScratch',
 
             // name that will be displayed in the Scratch UI
-            name: 'Demo',
+            name: 'AI',
 
             // colours to use for your extension blocks
             color1: '#000099',
@@ -41,7 +41,7 @@ class Scratch3YourExtension {
                     blockType: BlockType.REPORTER,
 
                     // label to display on the block
-                    text: 'My first block [MY_NUMBER] and [MY_STRING]',
+                    text: 'My first number: [MY_STRING] and my first string: [MY_NUMBER]',
 
                     // true if this block should end a stack
                     terminal: false,
@@ -69,7 +69,7 @@ class Scratch3YourExtension {
                         },
                         MY_STRING: {
                             // default value before the user sets something
-                            defaultValue: 'hello',
+                            defaultValue: ' ',
 
                             // type/shape of the parameter - choose from:
                             //     ArgumentType.ANGLE - numeric value with an angle picker
